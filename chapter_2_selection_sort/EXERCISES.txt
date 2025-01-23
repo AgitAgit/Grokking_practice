@@ -1,0 +1,13 @@
+2.1
+Suppose you're building an app to keep track of your finances.
+Every day, you write down everything you spent money on. At the end of the monsth, 
+you review your expenses and sum up how much you spent. 
+So you have lots of inserts and a few reads. 
+Should you use an array or a list?
+
+I should use a list, since inserting to a list takes O(1) operations.
+
+2.2
+Q. @page 33
+A. I would use a linked list.
+The orders will be read sequentially anyway, and there will be a lot of insertions and deletions.
