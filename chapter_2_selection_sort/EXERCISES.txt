@@ -11,3 +11,20 @@ I should use a list, since inserting to a list takes O(1) operations.
 Q. @page 33
 A. I would use a linked list.
 The orders will be read sequentially anyway, and there will be a lot of insertions and deletions.
+
+2.3
+I would use an array because it's faster than a linked list for random access reading
+
+2.4
+Inserts to an array run at O(n) time complexity which is a downside in this scenario.
+Binary search requires the array to be sorted, which requires the new user to be inserted in
+the correct place.
+But suppose the array is sorted, that would make finding the correct place to insert the new user
+easier.
+
+2.5
+searching: suppose all the names start with a, than at worst searching of any user starting with
+a would take o(n) time.
+it would be a little less than a linked list to lookout in the common case.
+
+inserting: inserting would take o(1) time.
