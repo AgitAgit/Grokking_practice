@@ -1,0 +1,2 @@
+chapter4 p75:
+why does choosing a random pivot improve the time of quicksort?
