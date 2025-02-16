@@ -1,0 +1,13 @@
+6.3
+A. Invalid
+B. Valid
+C Invalid
+
+6.4
+1. Wake up
+2. Brush teeth
+3. Eat breakfast
+4. Exercise
+5. Shower
+6. Get Dressed
+7. Pack lunch
