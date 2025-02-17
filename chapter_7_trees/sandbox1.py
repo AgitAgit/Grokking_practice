@@ -39,7 +39,9 @@ def printnames(start_dir):
 
 # printnames("pics")
 
+
 # Can I do this without a for loop?
+# my function
 def my_rec_printnames(path, name):
     fullpath = join(path,name)
     if isfile(fullpath):
@@ -51,13 +53,13 @@ def my_rec_printnames(path, name):
 
 # my_rec_printnames("","pics")
 
+# function from the book
+def rec_printnames(dir):
+    for file in sorted(listdir(dir)):
+        fullpath = join(dir, file)
+        if isfile(fullpath):
+            print(file)
+        else:
+            rec_printnames(fullpath)
 
-# suppose I have a tree and I want a list of the it's leaves?
-def my_rec_printnames2(path, name):
-    fullpath = join(path,name)
-    if isfile(fullpath):
-        print(name)
-        return name
-    dir = listdir(fullpath)
-
-
+rec_printnames("pics")
